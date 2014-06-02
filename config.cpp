@@ -1,0 +1,22 @@
+
+enum {
+	 //  = 2,	// Error parsing: Empty enum name
+	DESTRUCTENGINE = 2,
+	DESTRUCTDEFAULT = 6,
+	DESTRUCTWRECK = 7,
+	DESTRUCTTREE = 3,
+	DESTRUCTTENT = 4,
+	STABILIZEDINAXISX = 1,
+	STABILIZEDINAXESXYZ = 4,
+	STABILIZEDINAXISY = 2,
+	STABILIZEDINAXESBOTH = 3,
+	DESTRUCTNO = 0,
+	STABILIZEDINAXESNONE = 0,
+	DESTRUCTMAN = 5,
+	DESTRUCTBUILDING = 1,
+};
+
+#include "CfgPatches.hpp"
+#include "CfgAnimation.hpp"
+#include "CfgWeapons.hpp"
+
